@@ -17,7 +17,7 @@ const userSchema = new mongoose.Schema({
 
 const User = mongoose.model("user", userSchema)
 
-const BranchDetails = new mongoode.Schema({
+const BranchDetails = new mongoose.Schema({
     name: { type: String, required: true},
     address: { type: String, required: true},
     IFSC: { type: String, required: true},
